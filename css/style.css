@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(239, 195, 166);
+    /* Use a system font, if none are available use an available sans-sarif */
+    font-family: system-ui, sans-serif;
+    margin: 0;
+  }
+  
+  .board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 325px;
+  }
+  
+  .sqr {
+    width: 30%;
+    aspect-ratio: 1/1;
+    border: 3px solid black;
+    font-size: 64px;
+    text-align: center;
+  }
+  
+  #reset {
+    background-color: #fc6f03; /* Primary background color */
+    color: white;              /* Text color */
+    padding: 10px 20px;        /* Padding around the text */
+    font-size: 16px;           /* Font size */
+    border: none;              /* Remove default border */
+    border-radius: 5px;        /* Rounded corners */
+    cursor: pointer;           /* Pointer cursor on hover */
+    transition: background-color 0.3s ease;
+  }
